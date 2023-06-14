@@ -16,7 +16,7 @@ public class ContainerBox<T extends makemöbel> {
     }
 
     public T getindex(int i) {
-        return this.list.get(i);
+        return list.get(i);
     }
 
     public List<T> getliste() {
